@@ -94,7 +94,7 @@ local function load_modules()
     ctx.load_system("spectate")
     ctx.load_system("effect_data_sync")
     -- ctx.load_system("hax_preload")
-    -- ctx.load_system("wang_hooks")
+    ctx.load_system("wang_hooks")
 end
 
 local function is_suitable_target(entity)
